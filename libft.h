@@ -6,7 +6,7 @@
 /*   By: okerniak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/24 14:50:10 by okerniak          #+#    #+#             */
-/*   Updated: 2017/02/02 14:39:42 by okerniak         ###   ########.fr       */
+/*   Updated: 2017/02/02 18:37:17 by okerniak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <stdarg.h>
+# include <wchar.h>
 
 typedef struct		s_flagi
 {
