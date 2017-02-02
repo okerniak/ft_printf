@@ -6,7 +6,7 @@
 /*   By: okerniak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/02 12:17:34 by okerniak          #+#    #+#             */
-/*   Updated: 2017/02/02 17:40:36 by okerniak         ###   ########.fr       */
+/*   Updated: 2017/02/02 19:17:08 by okerniak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ void	ft_putstr_wchar(wchar_t const *s)
 	if (s == NULL)
 		return ;
 	while (s[i] != '\0')
-		ft_putchar_fd(s[i++], 1);
+		write(1, &s[i++], 4);
 }
