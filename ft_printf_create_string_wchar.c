@@ -6,7 +6,7 @@
 /*   By: okerniak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/02 10:55:23 by okerniak          #+#    #+#             */
-/*   Updated: 2017/02/02 17:29:30 by okerniak         ###   ########.fr       */
+/*   Updated: 2017/02/02 18:28:15 by okerniak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ wchar_t				*create_string_wchar(t_flagi *flagi, va_list p)
 			flagi->tipe == 'C')
 	{
 		ws = (wchar_t*)malloc(sizeof(wchar_t) * 2);
-		ws[0] = va_arg(p, wchar_t);
+		ws[0] = va_arg(p, wint_t);
 		ws[1] = '\0';
 	}
 	else
